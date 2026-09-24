@@ -1,10 +1,10 @@
-# Creates a PAID web service when applied in Render. Review the quoted price first.
+# Free web service for small datasets; idle instances sleep and lose memory state.
 # One instance and one Python worker are required by in-memory sessions.
 services:
   - type: web
     name: econ-workbench
     runtime: docker
-    plan: 1c-2g
+    plan: free
     region: singapore
     numInstances: 1
     dockerfilePath: ./Dockerfile
@@ -17,10 +17,10 @@ services:
       - key: ECON_DEPLOYMENT_MODE
         value: cloud
       - key: ECON_MAX_SESSIONS
-        value: "6"
+        value: "2"
       - key: ECON_MAX_CONCURRENT_JOBS
         value: "1"
       - key: ECON_SESSION_DATA_MB
-        value: "64"
+        value: "16"
       - key: ECON_TOTAL_DATA_MB
-        value: "256"
+        value: "32"

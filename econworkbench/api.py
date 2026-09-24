@@ -25,6 +25,7 @@ from . import runtime
 ROOT=Path(__file__).resolve().parents[1]
 SESSIONS={}
 TTL=7200
+EMPTY_TTL=300
 STATE_LOCK=threading.RLock()
 
 
@@ -39,14 +40,26 @@ def purge_session(session):
         j.cancel('会话已清理。')
 
 
+def session_expired(s,now):
+    empty=not (s['datasets'] or s['runs'] or s['jobs'])
+    return now-s['used']>(EMPTY_TTL if empty else TTL)
+
+
+def reap_sessions():
+    # Called under STATE_LOCK; never evict a non-expired session to make room.
+    now=time.monotonic()
+    for token,s in list(SESSIONS.items()):
+        if session_expired(s,now):
+            purge_session(s)
+            SESSIONS.pop(token,None)
+
+
 async def maintenance():
     while True:
         await asyncio.sleep(.3)
-        for token,s in list(SESSIONS.items()):
-            if time.monotonic()-s['used']>TTL:
-                purge_session(s)
-                SESSIONS.pop(token,None)
-            else:
+        with STATE_LOCK:
+            reap_sessions()
+            for s in list(SESSIONS.values()):
                 for jid,j in s['jobs'].items():
                     state=j.poll()
                     if state['status']=='completed' and jid not in s['runs']:
@@ -94,14 +107,15 @@ async def value_error(request,exc):
 
 def session(authorization: str=Header('')):
     token=authorization.removeprefix('Bearer ')
-    s=SESSIONS.get(token)
-    if not s or time.monotonic()-s['used']>TTL:
-        if s:
-            purge_session(s)
-            SESSIONS.pop(token,None)
-        raise HTTPException(401,'会话已过期或无效，请重新导入数据。')
-    s['used']=time.monotonic()
-    return s
+    with STATE_LOCK:
+        s=SESSIONS.get(token)
+        if not s or session_expired(s,time.monotonic()):
+            if s:
+                purge_session(s)
+                SESSIONS.pop(token,None)
+            raise HTTPException(401,'会话已过期或无效，请刷新页面后重新导入数据。')
+        s['used']=time.monotonic()
+        return s
 
 
 def dataset(s,did):
@@ -147,8 +161,9 @@ def offline_docs():
 @app.post('/api/session')
 def create_session():
     with STATE_LOCK:
+        reap_sessions()
         if len(SESSIONS)>=runtime.MAX_SESSIONS:
-            raise HTTPException(429,f'实例最多 {runtime.MAX_SESSIONS} 个活跃会话。请清理旧会话或稍后重试。')
+            raise HTTPException(429,f'当前 {runtime.MAX_SESSIONS} 个分析名额已占用。请在自己原来的标签页导出后点击左下角垃圾桶释放名额，或稍后再次点击上传/示例重试。关闭标签页不会立即释放。')
         token=secrets.token_urlsafe(32)
         SESSIONS[token]=dict(used=time.monotonic(),datasets={},runs={},jobs={})
         return {'token':token,'ttl_seconds':TTL}
@@ -156,8 +171,9 @@ def create_session():
 
 @app.delete('/api/session')
 def clear_session(authorization: str=Header(''),s=Depends(session)):
-    purge_session(s)
-    SESSIONS.pop(authorization.removeprefix('Bearer '),None)
+    with STATE_LOCK:
+        purge_session(s)
+        SESSIONS.pop(authorization.removeprefix('Bearer '),None)
     return {'status':'cleared'}
 
 

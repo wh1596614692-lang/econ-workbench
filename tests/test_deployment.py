@@ -48,3 +48,35 @@ def test_data_budget_counts_raw_and_global_sessions(monkeypatch):
         with pytest.raises(ValueError,match='会话数据内存'):
             api.add_dataset(a,frame.copy(),{'x':'x'},'test')
         assert len(a['datasets'])==1 and not b['datasets']
+
+
+def test_empty_session_expiry_preserves_analysis_and_admits_new_user(monkeypatch):
+    monkeypatch.setattr(runtime,'MAX_SESSIONS',2)
+    with TestClient(api.app) as c:
+        used=c.post('/api/session',json={}).json()['token']
+        empty=c.post('/api/session',json={}).json()['token']
+        api.add_dataset(api.SESSIONS[used],pd.DataFrame({'x':[1,2]}),{'x':'x'},'kept')
+        with api.STATE_LOCK:
+            for token in [used,empty]:
+                api.SESSIONS[token]['used']-=api.EMPTY_TTL+1
+        replacement=c.post('/api/session',json={})
+        assert replacement.status_code==200
+        assert empty not in api.SESSIONS and used in api.SESSIONS
+        assert len(api.SESSIONS[used]['datasets'])==1
+        assert len(api.SESSIONS)==2
+        assert c.post('/api/session',json={}).status_code==429
+        assert c.get('/api/datasets',headers={'Authorization':'Bearer '+used}).status_code==200
+        assert c.get('/api/datasets',headers={'Authorization':'Bearer '+empty}).status_code==401
+
+
+def test_browsing_and_clearing_do_not_reserve_sessions(monkeypatch):
+    monkeypatch.setattr(runtime,'MAX_SESSIONS',2)
+    with TestClient(api.app) as c:
+        for _ in range(5):
+            assert c.get('/').status_code==200
+            assert c.get('/api/health').status_code==200
+        assert not api.SESSIONS
+        token=c.post('/api/session',json={}).json()['token']
+        assert c.delete('/api/session',headers={'Authorization':'Bearer '+token}).status_code==200
+        assert c.get('/').status_code==200
+        assert not api.SESSIONS

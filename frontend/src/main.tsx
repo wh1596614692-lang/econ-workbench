@@ -201,6 +201,11 @@ const PAGES = [
   { id: "export", label: "报告与导出", icon: FileText },
 ];
 let token = sessionStorage.getItem("econ-token") || "";
+class ApiError extends Error {
+  constructor(message: string, public status: number) {
+    super(message);
+  }
+}
 async function api(
   path: string,
   body?: unknown,
@@ -217,12 +222,25 @@ async function api(
   });
   if (!res.ok) {
     const err = await res.json().catch(() => ({ detail: res.statusText }));
-    throw new Error(
+    throw new ApiError(
       typeof err.detail === "string" ? err.detail : JSON.stringify(err.detail),
+      res.status,
     );
   }
   const type = res.headers.get("content-type") || "";
   return type.includes("application/json") ? res.json() : res.blob();
+}
+let sessionRequest: Promise<void> | null = null;
+async function ensureSession() {
+  if (token) return;
+  if (!sessionRequest) {
+    sessionRequest = (async () => {
+      const s = await api("/session", {});
+      token = s.token;
+      sessionStorage.setItem("econ-token", token);
+    })().finally(() => { sessionRequest = null; });
+  }
+  await sessionRequest;
 }
 function save(blob: Blob, name: string) {
   const url = URL.createObjectURL(blob);
@@ -707,15 +725,13 @@ function App() {
               setDatasets(all);
               setRuns(await api("/runs"));
             }
-          } catch {
+          } catch (e) {
+            if (!(e instanceof ApiError) || e.status !== 401) throw e;
             token = "";
+            sessionStorage.removeItem("econ-token");
           }
         }
-        if (!token) {
-          const s = await api("/session", {});
-          token = s.token;
-          sessionStorage.setItem("econ-token", token);
-        }
+        // Browsing the site must not reserve a scarce analysis session.
         if (alive) setReady(true);
       } catch (e) {
         if (alive) setError("无法连接统计后端：" + (e as Error).message);
@@ -780,6 +796,7 @@ function App() {
   async function upload(file: File, sheet?: string) {
     fileRef.current = file;
     await guard(async () => {
+      await ensureSession();
       const fd = new FormData();
       fd.append("file", file);
       if (sheet) fd.append("sheet", sheet);
@@ -794,6 +811,7 @@ function App() {
   }
   async function loadExample(key: string) {
     await guard(async () => {
+      await ensureSession();
       const data = await api("/examples/" + key, {});
       setDataset(data.dataset);
       setCfg(data.config);
@@ -1321,7 +1339,13 @@ function App() {
           <button
             onClick={() =>
               guard(async () => {
-                await api("/session", undefined, "DELETE");
+                if (token) {
+                  try {
+                    await api("/session", undefined, "DELETE");
+                  } catch (e) {
+                    if (!(e instanceof ApiError) || e.status !== 401) throw e;
+                  }
+                }
                 sessionStorage.removeItem("econ-token");
                 token = "";
                 location.reload();
@@ -1353,6 +1377,11 @@ function App() {
             <Tag kind={ready ? "success" : "neutral"}>
               {ready ? (cloud ? "在线引擎已连接" : "本地引擎已连接") : "连接统计引擎"}
             </Tag>
+            {!ready && (
+              <button className="button small" onClick={() => location.reload()} disabled={!!busy}>
+                重新连接
+              </button>
+            )}
             <button
               className="button small"
               onClick={() => exportFile()}
