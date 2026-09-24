@@ -1,0 +1,14 @@
+fastapi==0.115.12
+uvicorn==0.34.2
+python-multipart==0.0.20
+pydantic==2.11.4
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+statsmodels==0.14.4
+linearmodels==7.0
+pydynpd==0.2.2
+openpyxl==3.1.5
+matplotlib==3.10.3
+httpx==0.28.1
+pytest==8.3.5

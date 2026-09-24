@@ -1,0 +1,1538 @@
+{
+  "python_version": "3.12.14",
+  "python": [
+    {
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Homepage, https://github.com/annotated-types/annotated-types",
+        "Source, https://github.com/annotated-types/annotated-types",
+        "Changelog, https://github.com/annotated-types/annotated-types/releases"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/annotated-types/annotated_types-0.8.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "anyio",
+      "version": "4.15.1",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Documentation, https://anyio.readthedocs.io/en/latest/",
+        "Changelog, https://anyio.readthedocs.io/en/stable/versionhistory.html",
+        "Source code, https://github.com/agronholm/anyio",
+        "Issue tracker, https://github.com/agronholm/anyio/issues"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/anyio/anyio-4.15.1.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "certifi",
+      "version": "2026.7.22",
+      "license_summary": "MPL-2.0",
+      "project_urls": [
+        "Source, https://github.com/certifi/python-certifi"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/certifi/certifi-2026.7.22.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "click",
+      "version": "8.5.0",
+      "license_summary": "BSD-3-Clause",
+      "project_urls": [
+        "Changes, https://click.palletsprojects.com/page/changes/",
+        "Chat, https://discord.gg/pallets",
+        "Documentation, https://click.palletsprojects.com/",
+        "Donate, https://palletsprojects.com/donate",
+        "Source, https://github.com/pallets/click/"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/click/click-8.5.0.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.6",
+      "license_summary": "See package notices",
+      "project_urls": [
+        "Homepage, https://github.com/tartley/colorama"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/colorama/colorama-0.4.6.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "license_summary": "BSD 3-Clause License\n\n Copyright (c) 2021-2025, ContourPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n 1. Redistributions of source code must retain the above copyright notice, this\n    list of conditions and the following disclaimer.\n\n 2. Redistributions in binary form must reproduce the above copyright notice,\n    this list of conditions and the following dis",
+      "project_urls": [
+        "Homepage, https://github.com/contourpy/contourpy",
+        "Changelog, https://contourpy.readthedocs.io/en/latest/changelog.html",
+        "Documentation, https://contourpy.readthedocs.io",
+        "Repository, https://github.com/contourpy/contourpy"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/contourpy/contourpy-1.3.3.dist-info/LICENSE"
+      ]
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "license_summary": "Copyright (c) 2015, matplotlib project\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or othe",
+      "project_urls": [
+        "homepage, https://matplotlib.org/cycler/",
+        "repository, https://github.com/matplotlib/cycler"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/cycler/cycler-0.12.1.dist-info/LICENSE"
+      ]
+    },
+    {
+      "name": "et_xmlfile",
+      "version": "2.0.0",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Documentation, https://openpyxl.pages.heptapod.net/et_xmlfile/",
+        "Source, https://foss.heptapod.net/openpyxl/et_xmlfile",
+        "Tracker, https://foss.heptapod.net/openpyxl/et_xmfile/-/issues"
+      ],
+      "notices": []
+    },
+    {
+      "name": "fastapi",
+      "version": "0.115.12",
+      "license_summary": "See package notices",
+      "project_urls": [
+        "Homepage, https://github.com/fastapi/fastapi",
+        "Documentation, https://fastapi.tiangolo.com/",
+        "Repository, https://github.com/fastapi/fastapi",
+        "Issues, https://github.com/fastapi/fastapi/issues",
+        "Changelog, https://fastapi.tiangolo.com/release-notes/"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/fastapi/fastapi-0.115.12.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "fonttools",
+      "version": "4.66.0",
+      "license_summary": "MIT",
+      "project_urls": [],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/fonttools/fonttools-4.66.0.dist-info/licenses/LICENSE",
+        "docs/third-party/python/fonttools/fonttools-4.66.0.dist-info/licenses/LICENSE.external"
+      ]
+    },
+    {
+      "name": "formulaic",
+      "version": "1.2.2",
+      "license_summary": "MIT",
+      "project_urls": [
+        "repository, https://github.com/matthewwardrop/formulaic",
+        "documentation, https://matthewwardrop.github.io/formulaic"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/formulaic/formulaic-1.2.2.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "license_summary": "MIT",
+      "project_urls": [],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/h11/h11-0.16.0.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "license_summary": "BSD-3-Clause",
+      "project_urls": [
+        "Documentation, https://www.encode.io/httpcore",
+        "Homepage, https://www.encode.io/httpcore/",
+        "Source, https://github.com/encode/httpcore"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/httpcore/httpcore-1.0.9.dist-info/licenses/LICENSE.md"
+      ]
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "license_summary": "BSD-3-Clause",
+      "project_urls": [
+        "Changelog, https://github.com/encode/httpx/blob/master/CHANGELOG.md",
+        "Documentation, https://www.python-httpx.org",
+        "Homepage, https://github.com/encode/httpx",
+        "Source, https://github.com/encode/httpx"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/httpx/httpx-0.28.1.dist-info/licenses/LICENSE.md"
+      ]
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "license_summary": "BSD-3-Clause",
+      "project_urls": [
+        "Changelog, https://github.com/kjd/idna/blob/master/HISTORY.md",
+        "Issue tracker, https://github.com/kjd/idna/issues",
+        "Source, https://github.com/kjd/idna"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/idna/idna-3.20.dist-info/licenses/LICENSE.md"
+      ]
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Homepage, https://github.com/pytest-dev/iniconfig"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/iniconfig/iniconfig-2.3.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "interface_meta",
+      "version": "2.0.1",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Homepage, https://github.com/matthewwardrop/interface_meta",
+        "Repository, https://github.com/matthewwardrop/interface_meta"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/interface_meta/interface_meta-2.0.1.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1",
+      "license_summary": "=========================\n The Kiwi licensing terms\n=========================\nKiwi is licensed under the terms of the Modified BSD License (also known as\nNew or Revised BSD), as follows:\n\nCopyright (c) 2013-2026, Nucleic Development Team\n\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this\nlist of conditions ",
+      "project_urls": [
+        "homepage, https://github.com/nucleic/kiwi",
+        "documentation, https://kiwisolver.readthedocs.io/en/latest/",
+        "repository, https://github.com/nucleic/kiwi",
+        "changelog, https://github.com/nucleic/kiwi/blob/main/releasenotes.rst"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/kiwisolver/kiwisolver-1.5.1.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "linearmodels",
+      "version": "7.0",
+      "license_summary": "NCSA",
+      "project_urls": [
+        "homepage, https://github.com/bashtage/linearmodels",
+        "documentation, https://bashtage.github.io/linearmodels/",
+        "repository, https://github.com/bashtage/linearmodels",
+        "changelog, https://bashtage.github.io/linearmodels/changes.html"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/linearmodels/linearmodels-7.0.dist-info/licenses/LICENSE.md"
+      ]
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.3",
+      "license_summary": "License agreement for matplotlib versions 1.3.0 and later\n =========================================================\n\n 1. This LICENSE AGREEMENT is between the Matplotlib Development Team\n (\"MDT\"), and the Individual or Organization (\"Licensee\") accessing and\n otherwise using matplotlib software in source or binary form and its\n associated documentation.\n\n 2. Subject to the terms and conditions of this License Agreement, MDT\n hereby grants Licensee a nonexclusive, royalty-free, world-wide licens",
+      "project_urls": [
+        "Homepage, https://matplotlib.org",
+        "Download, https://matplotlib.org/stable/install/index.html",
+        "Documentation, https://matplotlib.org",
+        "Source Code, https://github.com/matplotlib/matplotlib",
+        "Bug Tracker, https://github.com/matplotlib/matplotlib/issues",
+        "Forum, https://discourse.matplotlib.org/",
+        "Donate, https://numfocus.org/donate-to-matplotlib"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/matplotlib/matplotlib-3.10.3.dist-info/LICENSE",
+        "docs/third-party/python/matplotlib/matplotlib/mpl-data/fonts/ttf/LICENSE_DEJAVU",
+        "docs/third-party/python/matplotlib/matplotlib/mpl-data/fonts/ttf/LICENSE_STIX"
+      ]
+    },
+    {
+      "name": "mypy_extensions",
+      "version": "1.1.0",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Homepage, https://github.com/python/mypy_extensions"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/mypy_extensions/mypy_extensions-1.1.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "narwhals",
+      "version": "2.26.0",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Homepage, https://github.com/narwhals-dev/narwhals",
+        "Documentation, https://narwhals-dev.github.io/narwhals/",
+        "Repository, https://github.com/narwhals-dev/narwhals",
+        "Bug Tracker, https://github.com/narwhals-dev/narwhals/issues"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/narwhals/narwhals-2.26.0.dist-info/licenses/LICENSE.md"
+      ]
+    },
+    {
+      "name": "numpy",
+      "version": "1.26.4",
+      "license_summary": "Copyright (c) 2005-2023, NumPy Developers.\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are\nmet:\n\n    * Redistributions of source code must retain the above copyright\n       notice, this list of conditions and the following disclaimer.\n\n    * Redistributions in binary form must reproduce the above\n       copyright notice, this list of conditions and the following\n       disclaimer in th",
+      "project_urls": [
+        "Homepage, https://numpy.org",
+        "Documentation, https://numpy.org/doc/",
+        "Source, https://github.com/numpy/numpy",
+        "Download, https://pypi.org/project/numpy/#files",
+        "Tracker, https://github.com/numpy/numpy/issues",
+        "Release notes, https://numpy.org/doc/stable/release"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/numpy/numpy-1.26.4.dist-info/LICENSE.txt",
+        "docs/third-party/python/numpy/numpy/core/include/numpy/random/LICENSE.txt",
+        "docs/third-party/python/numpy/numpy/ma/LICENSE",
+        "docs/third-party/python/numpy/numpy/random/LICENSE.md"
+      ]
+    },
+    {
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Documentation, https://openpyxl.readthedocs.io/en/stable/",
+        "Source, https://foss.heptapod.net/openpyxl/openpyxl",
+        "Tracker, https://foss.heptapod.net/openpyxl/openpyxl/-/issues"
+      ],
+      "notices": []
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "license_summary": "Apache-2.0 OR BSD-2-Clause",
+      "project_urls": [
+        "Documentation, https://packaging.pypa.io/",
+        "Source, https://github.com/pypa/packaging"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/packaging/packaging-26.3.dist-info/licenses/LICENSE",
+        "docs/third-party/python/packaging/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+        "docs/third-party/python/packaging/packaging-26.3.dist-info/licenses/LICENSE.BSD"
+      ]
+    },
+    {
+      "name": "pandas",
+      "version": "2.2.3",
+      "license_summary": "BSD 3-Clause License\n\nCopyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team\nAll rights reserved.\n\nCopyright (c) 2011-2023, Open source contributors.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary",
+      "project_urls": [
+        "Homepage, https://pandas.pydata.org",
+        "Documentation, https://pandas.pydata.org/docs/",
+        "Repository, https://github.com/pandas-dev/pandas"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/pandas/pandas-2.2.3.dist-info/LICENSE"
+      ]
+    },
+    {
+      "name": "patsy",
+      "version": "1.0.3",
+      "license_summary": "2-clause BSD",
+      "project_urls": [],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/patsy/patsy-1.0.3.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "license_summary": "MIT-CMU",
+      "project_urls": [
+        "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+        "Changelog, https://github.com/python-pillow/Pillow/releases",
+        "Documentation, https://pillow.readthedocs.io",
+        "Funding, https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+        "Homepage, https://python-pillow.github.io",
+        "Mastodon, https://fosstodon.org/@pillow",
+        "Source, https://github.com/python-pillow/Pillow"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/pillow/pillow-12.3.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "license_summary": "MIT",
+      "project_urls": [],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/pluggy/pluggy-1.6.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "prettytable",
+      "version": "3.18.0",
+      "license_summary": "BSD-3-Clause",
+      "project_urls": [
+        "Changelog, https://github.com/prettytable/prettytable/releases",
+        "Funding, https://tidelift.com/subscription/pkg/pypi-prettytable?utm_source=pypi-prettytable&utm_medium=pypi",
+        "Homepage, https://github.com/prettytable/prettytable",
+        "Source, https://github.com/prettytable/prettytable"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/prettytable/prettytable-3.18.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pydantic",
+      "version": "2.11.4",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Homepage, https://github.com/pydantic/pydantic",
+        "Documentation, https://docs.pydantic.dev",
+        "Funding, https://github.com/sponsors/samuelcolvin",
+        "Source, https://github.com/pydantic/pydantic",
+        "Changelog, https://docs.pydantic.dev/latest/changelog/"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/pydantic/pydantic-2.11.4.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.33.2",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Homepage, https://github.com/pydantic/pydantic-core",
+        "Funding, https://github.com/sponsors/samuelcolvin",
+        "Source, https://github.com/pydantic/pydantic-core"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/pydantic_core/pydantic_core-2.33.2.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pydynpd",
+      "version": "0.2.2",
+      "license_summary": "MIT",
+      "project_urls": [],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/pydynpd/pydynpd-0.2.2.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pyhdfe",
+      "version": "0.2.0",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Documentation, http://pyhdfe.readthedocs.io/en/latest",
+        "Tracker, https://github.com/jeffgortmaker/pyhdfe/issues"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/pyhdfe/pyhdfe-0.2.0.dist-info/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Documentation, https://pyparsing-docs.readthedocs.io/en/latest/",
+        "Homepage, https://github.com/pyparsing/pyparsing/",
+        "Source, https://github.com/pyparsing/pyparsing.git"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/pyparsing/pyparsing-3.3.3.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pytest",
+      "version": "8.3.5",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Changelog, https://docs.pytest.org/en/stable/changelog.html",
+        "Contact, https://docs.pytest.org/en/stable/contact.html",
+        "Funding, https://docs.pytest.org/en/stable/sponsor.html",
+        "Homepage, https://docs.pytest.org/en/latest/",
+        "Source, https://github.com/pytest-dev/pytest",
+        "Tracker, https://github.com/pytest-dev/pytest/issues"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/pytest/pytest-8.3.5.dist-info/LICENSE"
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "license_summary": "Dual License",
+      "project_urls": [
+        "Documentation, https://dateutil.readthedocs.io/en/stable/",
+        "Source, https://github.com/dateutil/dateutil"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/python-dateutil/python_dateutil-2.9.0.post0.dist-info/LICENSE"
+      ]
+    },
+    {
+      "name": "python-multipart",
+      "version": "0.0.20",
+      "license_summary": "Apache-2.0",
+      "project_urls": [
+        "Homepage, https://github.com/Kludex/python-multipart",
+        "Documentation, https://kludex.github.io/python-multipart/",
+        "Changelog, https://github.com/Kludex/python-multipart/blob/master/CHANGELOG.md",
+        "Source, https://github.com/Kludex/python-multipart"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/python-multipart/python_multipart-0.0.20.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pytz",
+      "version": "2026.4",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Source, https://github.com/stub42/pytz.git",
+        "Issues, https://github.com/stub42/pytz/issues"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/pytz/pytz-2026.4.dist-info/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "scipy",
+      "version": "1.14.1",
+      "license_summary": "Copyright (c) 2001-2002 Enthought, Inc. 2003-2024, SciPy Developers.\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above\n   copyright notice, this list of conditions and the following\n   disclaim",
+      "project_urls": [
+        "Homepage, https://scipy.org/",
+        "Documentation, https://docs.scipy.org/doc/scipy/",
+        "Source, https://github.com/scipy/scipy",
+        "Download, https://github.com/scipy/scipy/releases",
+        "Tracker, https://github.com/scipy/scipy/issues"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/scipy/scipy-1.14.1.dist-info/LICENSE.txt",
+        "docs/third-party/python/scipy/scipy/_lib/_uarray/LICENSE",
+        "docs/third-party/python/scipy/scipy/fft/_pocketfft/LICENSE.md",
+        "docs/third-party/python/scipy/scipy/sparse/linalg/_eigen/arpack/COPYING",
+        "docs/third-party/python/scipy/scipy/spatial/qhull_src/COPYING.txt"
+      ]
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "license_summary": "MIT",
+      "project_urls": [],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/six/six-1.17.0.dist-info/LICENSE"
+      ]
+    },
+    {
+      "name": "starlette",
+      "version": "0.46.2",
+      "license_summary": "BSD-3-Clause",
+      "project_urls": [
+        "Homepage, https://github.com/encode/starlette",
+        "Documentation, https://www.starlette.io/",
+        "Changelog, https://www.starlette.io/release-notes/",
+        "Funding, https://github.com/sponsors/encode",
+        "Source, https://github.com/encode/starlette"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/starlette/starlette-0.46.2.dist-info/licenses/LICENSE.md"
+      ]
+    },
+    {
+      "name": "statsmodels",
+      "version": "0.14.4",
+      "license_summary": "BSD License",
+      "project_urls": [
+        "Bug Tracker, https://github.com/statsmodels/statsmodels/issues",
+        "Documentation, https://www.statsmodels.org/stable/index.html",
+        "Source Code, https://github.com/statsmodels/statsmodels"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/statsmodels/statsmodels-0.14.4.dist-info/LICENSE.txt",
+        "docs/third-party/python/statsmodels/statsmodels/LICENSE.txt",
+        "docs/third-party/python/statsmodels/statsmodels/stats/libqsturng/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.4",
+      "license_summary": "MIT",
+      "project_urls": [
+        "Homepage, https://github.com/pydantic/typing-inspection",
+        "Documentation, https://pydantic.github.io/typing-inspection/dev/",
+        "Source, https://github.com/pydantic/typing-inspection",
+        "Changelog, https://github.com/pydantic/typing-inspection/blob/main/HISTORY.md"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/typing-inspection/typing_inspection-0.4.4.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "license_summary": "PSF-2.0",
+      "project_urls": [
+        "Bug Tracker, https://github.com/python/typing_extensions/issues",
+        "Changes, https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+        "Documentation, https://typing-extensions.readthedocs.io/",
+        "Home, https://github.com/python/typing_extensions",
+        "Q & A, https://github.com/python/typing/discussions",
+        "Repository, https://github.com/python/typing_extensions"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/typing_extensions/typing_extensions-4.16.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.4",
+      "license_summary": "Apache-2.0",
+      "project_urls": [
+        "Bug Reports, https://github.com/python/tzdata/issues",
+        "Source, https://github.com/python/tzdata",
+        "Documentation, https://tzdata.python.org"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/tzdata/tzdata-2026.4.dist-info/licenses/LICENSE",
+        "docs/third-party/python/tzdata/tzdata-2026.4.dist-info/licenses/licenses/LICENSE_APACHE"
+      ]
+    },
+    {
+      "name": "uvicorn",
+      "version": "0.34.2",
+      "license_summary": "BSD-3-Clause",
+      "project_urls": [
+        "Changelog, https://www.uvicorn.org/release-notes",
+        "Funding, https://github.com/sponsors/encode",
+        "Homepage, https://www.uvicorn.org/",
+        "Source, https://github.com/encode/uvicorn"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/uvicorn/uvicorn-0.34.2.dist-info/licenses/LICENSE.md"
+      ]
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.9.1",
+      "license_summary": "See package notices",
+      "project_urls": [
+        "Homepage, https://github.com/jquast/wcwidth"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/wcwidth/wcwidth-0.9.1.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "wrapt",
+      "version": "2.4.1",
+      "license_summary": "BSD-2-Clause",
+      "project_urls": [
+        "Homepage, https://github.com/GrahamDumpleton/wrapt",
+        "Bug Tracker, https://github.com/GrahamDumpleton/wrapt/issues/",
+        "Changelog, https://wrapt.readthedocs.io/en/latest/changes.html",
+        "Documentation, https://wrapt.readthedocs.io/"
+      ],
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/python/wrapt/wrapt-2.4.1.dist-info/licenses/LICENSE"
+      ]
+    }
+  ],
+  "frontend": [
+    {
+      "name": "@babel/code-frame",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__code-frame/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/compat-data",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__compat-data/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/core",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__core/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/generator",
+      "version": "7.29.8",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__generator/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/helper-compilation-targets",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__helper-compilation-targets/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/helper-globals",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__helper-globals/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/helper-module-imports",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__helper-module-imports/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/helper-module-transforms",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__helper-module-transforms/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/helper-plugin-utils",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__helper-plugin-utils/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/helper-string-parser",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__helper-string-parser/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/helper-validator-identifier",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__helper-validator-identifier/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/helper-validator-option",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__helper-validator-option/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/helpers",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__helpers/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/parser",
+      "version": "7.29.9",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__parser/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-react-jsx-self",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__plugin-transform-react-jsx-self/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-react-jsx-source",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__plugin-transform-react-jsx-source/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/template",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__template/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/traverse",
+      "version": "7.29.8",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__traverse/LICENSE"
+      ]
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.29.8",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@babel__types/LICENSE"
+      ]
+    },
+    {
+      "name": "@esbuild/win32-x64",
+      "version": "0.25.12",
+      "license": "MIT",
+      "notices": []
+    },
+    {
+      "name": "@jridgewell/gen-mapping",
+      "version": "0.3.13",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@jridgewell__gen-mapping/LICENSE"
+      ]
+    },
+    {
+      "name": "@jridgewell/remapping",
+      "version": "2.3.5",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@jridgewell__remapping/LICENSE"
+      ]
+    },
+    {
+      "name": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@jridgewell__resolve-uri/LICENSE"
+      ]
+    },
+    {
+      "name": "@jridgewell/sourcemap-codec",
+      "version": "1.6.0",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@jridgewell__sourcemap-codec/LICENSE"
+      ]
+    },
+    {
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@jridgewell__trace-mapping/LICENSE"
+      ]
+    },
+    {
+      "name": "@rollup/rollup-win32-x64-gnu",
+      "version": "4.63.4",
+      "license": "MIT",
+      "notices": []
+    },
+    {
+      "name": "@rollup/rollup-win32-x64-msvc",
+      "version": "4.63.4",
+      "license": "MIT",
+      "notices": []
+    },
+    {
+      "name": "@types/babel__core",
+      "version": "7.20.5",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@types__babel__core/LICENSE"
+      ]
+    },
+    {
+      "name": "@types/babel__generator",
+      "version": "7.27.0",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@types__babel__generator/LICENSE"
+      ]
+    },
+    {
+      "name": "@types/babel__template",
+      "version": "7.4.4",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@types__babel__template/LICENSE"
+      ]
+    },
+    {
+      "name": "@types/babel__traverse",
+      "version": "7.28.0",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@types__babel__traverse/LICENSE"
+      ]
+    },
+    {
+      "name": "@types/estree",
+      "version": "1.0.9",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@types__estree/LICENSE"
+      ]
+    },
+    {
+      "name": "@types/react",
+      "version": "19.1.4",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@types__react/LICENSE"
+      ]
+    },
+    {
+      "name": "@types/react-dom",
+      "version": "19.1.5",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@types__react-dom/LICENSE"
+      ]
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "version": "4.4.1",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/@vitejs__plugin-react/LICENSE"
+      ]
+    },
+    {
+      "name": "baseline-browser-mapping",
+      "version": "2.11.25",
+      "license": "Apache-2.0",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/baseline-browser-mapping/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "browserslist",
+      "version": "4.29.0",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/browserslist/LICENSE"
+      ]
+    },
+    {
+      "name": "caniuse-lite",
+      "version": "1.0.30001810",
+      "license": "CC-BY-4.0",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/caniuse-lite/LICENSE"
+      ]
+    },
+    {
+      "name": "convert-source-map",
+      "version": "2.0.0",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/convert-source-map/LICENSE"
+      ]
+    },
+    {
+      "name": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/csstype/LICENSE"
+      ]
+    },
+    {
+      "name": "debug",
+      "version": "4.4.3",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/debug/LICENSE"
+      ]
+    },
+    {
+      "name": "electron-to-chromium",
+      "version": "1.5.436",
+      "license": "ISC",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/electron-to-chromium/LICENSE"
+      ]
+    },
+    {
+      "name": "esbuild",
+      "version": "0.25.12",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/esbuild/LICENSE.md"
+      ]
+    },
+    {
+      "name": "escalade",
+      "version": "3.2.0",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/escalade/license"
+      ]
+    },
+    {
+      "name": "fdir",
+      "version": "6.5.0",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/fdir/LICENSE"
+      ]
+    },
+    {
+      "name": "gensync",
+      "version": "1.0.0-beta.2",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/gensync/LICENSE"
+      ]
+    },
+    {
+      "name": "js-tokens",
+      "version": "4.0.0",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/js-tokens/LICENSE"
+      ]
+    },
+    {
+      "name": "jsesc",
+      "version": "3.1.0",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/jsesc/LICENSE-MIT.txt"
+      ]
+    },
+    {
+      "name": "json5",
+      "version": "2.2.3",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/json5/LICENSE.md"
+      ]
+    },
+    {
+      "name": "lru-cache",
+      "version": "5.1.1",
+      "license": "ISC",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/lru-cache/LICENSE"
+      ]
+    },
+    {
+      "name": "lucide-react",
+      "version": "0.511.0",
+      "license": "ISC",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/lucide-react/LICENSE"
+      ]
+    },
+    {
+      "name": "ms",
+      "version": "2.1.3",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/ms/license.md"
+      ]
+    },
+    {
+      "name": "nanoid",
+      "version": "3.3.19",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/nanoid/LICENSE"
+      ]
+    },
+    {
+      "name": "node-releases",
+      "version": "2.0.56",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/node-releases/LICENSE"
+      ]
+    },
+    {
+      "name": "picocolors",
+      "version": "1.1.1",
+      "license": "ISC",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/picocolors/LICENSE"
+      ]
+    },
+    {
+      "name": "picomatch",
+      "version": "4.0.7",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/picomatch/LICENSE"
+      ]
+    },
+    {
+      "name": "postcss",
+      "version": "8.5.28",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/postcss/LICENSE"
+      ]
+    },
+    {
+      "name": "react",
+      "version": "19.1.0",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/react/LICENSE"
+      ]
+    },
+    {
+      "name": "react-dom",
+      "version": "19.1.0",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/react-dom/LICENSE"
+      ]
+    },
+    {
+      "name": "react-refresh",
+      "version": "0.17.0",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/react-refresh/LICENSE"
+      ]
+    },
+    {
+      "name": "rollup",
+      "version": "4.63.4",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/rollup/LICENSE.md"
+      ]
+    },
+    {
+      "name": "scheduler",
+      "version": "0.26.0",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/scheduler/LICENSE"
+      ]
+    },
+    {
+      "name": "semver",
+      "version": "6.3.1",
+      "license": "ISC",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/semver/LICENSE"
+      ]
+    },
+    {
+      "name": "source-map-js",
+      "version": "1.2.1",
+      "license": "BSD-3-Clause",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/source-map-js/LICENSE"
+      ]
+    },
+    {
+      "name": "tinyglobby",
+      "version": "0.2.17",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/tinyglobby/LICENSE"
+      ]
+    },
+    {
+      "name": "typescript",
+      "version": "5.8.3",
+      "license": "Apache-2.0",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/typescript/LICENSE.txt",
+        "docs/third-party/frontend/typescript/ThirdPartyNoticeText.txt"
+      ]
+    },
+    {
+      "name": "update-browserslist-db",
+      "version": "1.3.3",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/update-browserslist-db/LICENSE"
+      ]
+    },
+    {
+      "name": "vite",
+      "version": "6.4.1",
+      "license": "MIT",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/vite/LICENSE.md"
+      ]
+    },
+    {
+      "name": "yallist",
+      "version": "3.1.1",
+      "license": "ISC",
+      "notices": [
+        "docs/third-party/ALL-NOTICES.txt"
+      ],
+      "original_notice_paths": [
+        "docs/third-party/frontend/yallist/LICENSE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "cross": {
+    "name": "合成截面 · 教育与收入",
+    "model": "ols",
+    "y": "log_income",
+    "x": [
+      "education"
+    ],
+    "controls": [
+      "experience"
+    ],
+    "se": "HC3",
+    "group": "region"
+  },
+  "time": {
+    "name": "合成时间序列",
+    "model": "ols",
+    "y": "y",
+    "x": [
+      "x"
+    ],
+    "se": "HAC",
+    "hac_lags": 3,
+    "structure": {
+      "kind": "time",
+      "time": "month",
+      "frequency": "M"
+    }
+  },
+  "panel": {
+    "name": "合成不平衡面板 · 双向固定效应",
+    "model": "fe",
+    "y": "y",
+    "x": [
+      "x"
+    ],
+    "controls": [
+      "control",
+      "invariant"
+    ],
+    "se": "cluster",
+    "cluster": "id",
+    "effects": "twoway",
+    "structure": {
+      "kind": "panel",
+      "entity": "id",
+      "time": "year"
+    }
+  },
+  "did": {
+    "name": "合成 DID · 共同政策时点",
+    "model": "did",
+    "y": "y",
+    "controls": [
+      "x",
+      "control"
+    ],
+    "se": "cluster",
+    "cluster": "id",
+    "treat": "treated",
+    "policy_time": "2016",
+    "structure": {
+      "kind": "panel",
+      "entity": "id",
+      "time": "year"
+    }
+  },
+  "gmm": {
+    "name": "合成动态面板 · 系统 GMM",
+    "model": "gmm",
+    "y": "dynamic_y",
+    "x": [
+      "x"
+    ],
+    "controls": [
+      "control"
+    ],
+    "structure": {
+      "kind": "panel",
+      "entity": "id",
+      "time": "year"
+    },
+    "gmm": {
+      "exogenous": [
+        "x",
+        "control"
+      ],
+      "lag_min": 2,
+      "lag_max": 3,
+      "collapse": true,
+      "steps": 2,
+      "time_dummies": true
+    }
+  }
+}
